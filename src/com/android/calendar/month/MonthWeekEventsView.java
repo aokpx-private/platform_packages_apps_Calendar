@@ -348,6 +348,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
         if (!mInitialized) {
             Resources resources = getContext().getResources();
             mShowDetailsInMonth = Utils.getConfigBool(getContext(), R.bool.show_details_in_month);
+            TEXT_SIZE_EVENT = resources.getInteger(R.integer.text_size_event);
             TEXT_SIZE_EVENT_TITLE = resources.getInteger(R.integer.text_size_event_title);
             TEXT_SIZE_MONTH_NUMBER = resources.getInteger(R.integer.text_size_month_number);
             SIDE_PADDING_MONTH_NUMBER = resources.getInteger(R.integer.month_day_number_margin);
