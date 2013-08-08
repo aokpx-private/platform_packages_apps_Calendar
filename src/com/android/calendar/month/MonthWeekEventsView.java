@@ -87,7 +87,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
     private static int DAY_SEPARATOR_OUTER_WIDTH = 0;
     private static int DAY_SEPARATOR_INNER_WIDTH = 1;
     private static int DAY_SEPARATOR_VERTICAL_LENGTH = 53;
-    private static int DAY_SEPARATOR_VERTICAL_LENGHT_PORTRAIT = 64;
+    private static int DAY_SEPARATOR_VERTICAL_LENGTH_PORTRAIT = 64;
     private static int MIN_WEEK_WIDTH = 50;
 
     private static int EVENT_X_OFFSET_LANDSCAPE = 38;
@@ -369,7 +369,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
                 DAY_SEPARATOR_OUTER_WIDTH *= mScale;
                 DAY_SEPARATOR_INNER_WIDTH *= mScale;
                 DAY_SEPARATOR_VERTICAL_LENGTH *= mScale;
-                DAY_SEPARATOR_VERTICAL_LENGHT_PORTRAIT *= mScale;
+                DAY_SEPARATOR_VERTICAL_LENGTH_PORTRAIT *= mScale;
                 EVENT_X_OFFSET_LANDSCAPE *= mScale;
                 EVENT_Y_OFFSET_LANDSCAPE *= mScale;
                 EVENT_Y_OFFSET_PORTRAIT *= mScale;
